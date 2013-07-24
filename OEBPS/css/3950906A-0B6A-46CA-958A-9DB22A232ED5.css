@@ -1,0 +1,62 @@
+﻿body {
+    width: 738px;
+    height: 985px;   
+    margin: 0;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    margin: 0;
+}
+
+img.background {
+    width: 738px;
+    height: 985px;
+    margin: 0;
+    z-index: -1;
+}
+
+.para {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.page > .para {
+    position: relative;
+    top:0px;
+    left:0px;
+    font-family: "noteworthy";
+    font-size: 48px;
+    font-style:;
+    color: black;
+    margin: 0;
+}
+
+
+#block1 {
+    position: relative;
+    top: 80px;
+    left: 0px;
+    font-family:;
+    font-size:60px;
+    font-style:;
+    text-align:center;
+    color:;
+    text-shadow: #6374AB 4px 4px 8px;
+   
+}
+
+#block2 {
+    position: relative;
+    top: 760px;
+    left: 0px;
+    font-family:;
+    font-size:28px;
+    font-style:;
+    text-align:center;
+    color:;
+    text-shadow: #6374AB 4px 4px 8px;
+    
+}

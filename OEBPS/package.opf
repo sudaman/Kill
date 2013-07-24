@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf">
+<dc:title>Kill</dc:title>
+<dc:creator>Kim</dc:creator>
+<dc:rights>Kim</dc:rights>
+<dc:date>2013-07-23</dc:date>
+<dc:language>en</dc:language>
+<dc:identifier id="bookid">123456789xxx</dc:identifier>
+<meta name="cover" content="coverimage"/></metadata>
+<manifest>
+<!--supplementary -->
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+
+<!-- css -->
+<item id="css001" href="css/3950906A-0B6A-46CA-958A-9DB22A232ED5.css" media-type="text/css"/>
+<item id="css002" href="css/48647593-55EC-48CC-AA27-3FF21FBA87F4.css" media-type="text/css"/>
+<item id="css003" href="css/6FEE3901-F54F-40DB-8B2C-6D97F0384ED5.css" media-type="text/css"/>
+
+<!-- xhtml -->
+<item id="pg001" href="page001.xhtml" media-type="application/xhtml+xml"/>
+<item id="pg002" href="page002.xhtml" media-type="application/xhtml+xml"/>
+<item id="pg003" href="page003.xhtml" media-type="application/xhtml+xml"/>
+
+<!-- images -->
+<item id="coverimage" href="images/cover.png" media-type="image/png"/>
+<item id="image001" href="images/583B260A-4841-45C5-9569-06F891521B1F.jpg" media-type="image/jpeg"/>
+<item id="image002" href="images/E68122D3-433B-41A6-9770-F86F4307128C.jpg" media-type="image/jpeg"/>
+
+<!-- audio -->
+
+<!-- fonts -->
+
+<!-- smil -->
+
+<!-- extras -->
+</manifest>
+
+<spine toc="ncx">
+<itemref idref="pg001"/>
+<itemref idref="pg002"/>
+<itemref idref="pg003"/>
+</spine>
+
+<guide>
+<reference type="cover" title="Cover" href="page001.xhtml"/>
+<reference type="text" title="Main Content" href="page002.xhtml"/>
+</guide>
+</package>
